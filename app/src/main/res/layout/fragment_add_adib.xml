@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:text="Adib qo'shish"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPhoto"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00B238"
+            android:text="Adib rasmi"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="#D7D7D7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameUN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adib ismi, familyasi va otasining ismi"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:background="#D7D7D7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/wasBorn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tug'ilgan yili"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="#D7D7D7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dateDead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Vafot etgan yili"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D7D7D7"
+            android:hint="Turi">
+
+            <AutoCompleteTextView
+                android:inputType="none"
+                android:id="@+id/autoComplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E4E4" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D7D7D7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/aboutAdib"
+                android:layout_width="match_parent"
+                android:gravity="top"
+                android:layout_height="match_parent"
+                android:hint="Adib haqida to'liq ma'lumot" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#00B238"
+            android:text="Saqlash"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

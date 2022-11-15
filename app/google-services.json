@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651198836667",
+    "project_id": "adibtogo",
+    "storage_bucket": "adibtogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651198836667:android:b576943b15fc4c634fde9e",
+        "android_client_info": {
+          "package_name": "com.example.adibtogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651198836667-cbkgr7uhkpk7isnt7o9kqiphk4ge9t8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHuZ7AkCbwibQ8bvlcIlqLtEce1LdsLZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651198836667-cbkgr7uhkpk7isnt7o9kqiphk4ge9t8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
